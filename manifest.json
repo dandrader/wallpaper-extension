@@ -1,0 +1,15 @@
+{
+  "name": "Wallpaper Example",
+  "description": "Tests the wallpaper API",
+  "version": "0.1",
+  "manifest_version": 3,
+  "permissions": [
+    "wallpaper"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
